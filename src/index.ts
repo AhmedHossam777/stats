@@ -4,12 +4,6 @@ import { MatchResult } from './MatchResult';
 const reader = new CsvFileReader('football.csv');
 reader.read();
 
-console.log(reader.data);
-
-
-// enum
-
-
 let manUnitedWins = 0;
 
 for (const match of reader.data) {
